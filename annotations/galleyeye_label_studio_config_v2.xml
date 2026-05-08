@@ -1,0 +1,385 @@
+<View>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       GALLEYEYE — Label Studio Annotation Config v2
+       Purpose : YOLO segmentation masks + Siamese NN % ground truth
+       Layout  : Unconsumed (left) | Consumed (right)
+       ═══════════════════════════════════════════════════════════════ -->
+
+  <Style>
+    .container       { display: flex; gap: 16px; margin-bottom: 16px; }
+    .image-panel     { flex: 1; text-align: center; }
+    .image-label     { font-weight: bold; font-size: 14px;
+                       margin-bottom: 6px; color: #1F3864;
+                       background: #d6e4f0; padding: 4px 8px;
+                       border-radius: 4px; display: inline-block; }
+    .section         { background: #f2f7fb; border-radius: 8px;
+                       padding: 12px 16px; margin-bottom: 12px; }
+    .section-title   { font-weight: bold; font-size: 13px;
+                       color: #1F3864; margin-bottom: 8px;
+                       text-transform: uppercase; letter-spacing: 0.5px;
+                       border-bottom: 2px solid #1F3864;
+                       padding-bottom: 4px; }
+    .hint            { font-size: 11px; color: #777;
+                       margin-top: 2px; margin-bottom: 6px;
+                       font-style: italic; }
+    .divider         { border-top: 1px solid #d0dce8; margin: 12px 0; }
+    .pct-row         { margin-bottom: 8px; }
+  </Style>
+
+  <!-- ══════════════════════════════════════════
+       SIDE BY SIDE IMAGES
+       Unconsumed = left (reference)
+       Consumed   = right (to annotate)
+       ══════════════════════════════════════════ -->
+  <View className="container">
+
+    <View className="image-panel">
+      <View className="image-label">◀ UNCONSUMED — Reference</View>
+      <Image name="img_unconsumed" value="$unconsumed_url"
+             zoom="true" zoomControl="true" crosshair="true"/>
+    </View>
+
+    <View className="image-panel">
+      <View className="image-label">CONSUMED — Annotate Here ▶</View>
+      <Image name="img_consumed" value="$consumed_url"
+             zoom="true" zoomControl="true" crosshair="true"/>
+    </View>
+
+  </View>
+
+  <!-- ══════════════════════════════════════════
+       YOLO SEGMENTATION MASKS
+       Draw polygons on BOTH images.
+       One polygon per food category — not per
+       individual item (e.g. all rice = 1 polygon).
+       ══════════════════════════════════════════ -->
+
+  <!-- ── Masks on UNCONSUMED image ── -->
+  <View className="section">
+    <View className="section-title">
+      Step 1 — Draw Masks on UNCONSUMED image (left)
+    </View>
+    <View className="hint">
+      Draw one polygon per food component visible on the unconsumed tray.
+      Cover the entire region of that food type as one shape.
+      Skip components not present on this tray.
+    </View>
+
+    <PolygonLabels name="masks_unconsumed" toName="img_unconsumed"
+                   strokeWidth="2" pointSize="small" opacity="0.4">
+
+      <!-- Main Course -->
+      <Label value="rice"             background="#4A90D9"/>
+      <Label value="chicken"          background="#E8A838"/>
+      <Label value="fish_salmon"      background="#F4A460"/>
+      <Label value="broccoli"         background="#5CB85C"/>
+      <Label value="carrots"          background="#FF7F00"/>
+      <Label value="salad_main"       background="#8BC34A"/>
+      <Label value="wrap_half_1"      background="#AB47BC"/>
+      <Label value="wrap_half_2"      background="#CE93D8"/>
+      <Label value="pasta_pesto"      background="#26A69A"/>
+
+      <!-- Side Dish -->
+      <Label value="bread_roll"       background="#A1887F"/>
+      <Label value="side_salad"       background="#AED581"/>
+
+      <!-- Dessert -->
+      <Label value="brownie"          background="#6D4C41"/>
+      <Label value="vanilla_pudding_with_fruits" background="#FFF176"/>
+      <Label value="fruit_salad"      background="#EF9A9A"/>
+
+      <!-- Drinks -->
+      <Label value="water_bottle"     background="#81D4FA"/>
+      <Label value="coffee_cup"       background="#4E342E"/>
+      <Label value="tea_cup"          background="#A5D6A7"/>
+      <Label value="orange_juice_bottle" background="#FFB300"/>
+      <Label value="cola_can"         background="#C62828"/>
+
+    </PolygonLabels>
+  </View>
+
+  <!-- ── Masks on CONSUMED image ── -->
+  <View className="section">
+    <View className="section-title">
+      Step 2 — Draw Masks on CONSUMED image (right)
+    </View>
+    <View className="hint">
+      Draw the same food components on the consumed image.
+      Draw tightly around what is actually there — if food is gone,
+      do not draw a mask for it. If food has moved, draw where it is now.
+    </View>
+
+    <PolygonLabels name="masks_consumed" toName="img_consumed"
+                   strokeWidth="2" pointSize="small" opacity="0.4">
+
+      <!-- Main Course -->
+      <Label value="rice"             background="#4A90D9"/>
+      <Label value="chicken"          background="#E8A838"/>
+      <Label value="fish_salmon"      background="#F4A460"/>
+      <Label value="broccoli"         background="#5CB85C"/>
+      <Label value="carrots"          background="#FF7F00"/>
+      <Label value="salad_main"       background="#8BC34A"/>
+      <Label value="wrap_half_1"      background="#AB47BC"/>
+      <Label value="wrap_half_2"      background="#CE93D8"/>
+      <Label value="pasta_pesto"      background="#26A69A"/>
+
+      <!-- Side Dish -->
+      <Label value="bread_roll"       background="#A1887F"/>
+      <Label value="side_salad"       background="#AED581"/>
+
+      <!-- Dessert -->
+      <Label value="brownie"          background="#6D4C41"/>
+      <Label value="vanilla_pudding_with_fruits" background="#FFF176"/>
+      <Label value="fruit_salad"      background="#EF9A9A"/>
+
+      <!-- Drinks -->
+      <Label value="water_bottle"     background="#81D4FA"/>
+      <Label value="coffee_cup"       background="#4E342E"/>
+      <Label value="tea_cup"          background="#A5D6A7"/>
+      <Label value="orange_juice_bottle" background="#FFB300"/>
+      <Label value="cola_can"         background="#C62828"/>
+
+    </PolygonLabels>
+  </View>
+
+  <!-- ══════════════════════════════════════════
+       SIAMESE NN GROUND TRUTH — % PER COMPONENT
+       These are the training labels for the
+       Siamese NN. Use weight data + visual
+       judgment. See annotation guidelines.
+       ══════════════════════════════════════════ -->
+
+  <!-- ── MAIN COURSE % ── -->
+  <View className="section">
+    <View className="section-title">
+      Step 3 — Consumption % (Siamese NN Ground Truth)
+    </View>
+    <View className="hint">
+      Enter 0-100 for each component present on this tray.
+      0 = untouched, 100 = fully consumed.
+      Leave blank if the component is not present on this tray.
+      Use weight from Excel as reference — apply visual correction for
+      non-edible residuals (cores, bones, crumbs).
+    </View>
+
+    <!-- Main Course -->
+    <View className="section">
+      <View className="section-title">Main Course</View>
+
+      <View className="pct-row">
+        <Header value="Rice"/>
+        <Number name="pct_rice" toName="img_consumed"
+                min="0" max="100" placeholder="0-100"/>
+      </View>
+
+      <View className="divider"/>
+
+      <View className="pct-row">
+        <Header value="Chicken"/>
+        <Number name="pct_chicken" toName="img_consumed"
+                min="0" max="100" placeholder="0-100"/>
+      </View>
+
+      <View className="divider"/>
+
+      <View className="pct-row">
+        <Header value="Fish / Salmon"/>
+        <Number name="pct_fish_salmon" toName="img_consumed"
+                min="0" max="100" placeholder="0-100"/>
+      </View>
+
+      <View className="divider"/>
+
+      <View className="pct-row">
+        <Header value="Broccoli"/>
+        <Number name="pct_broccoli" toName="img_consumed"
+                min="0" max="100" placeholder="0-100"/>
+      </View>
+
+      <View className="divider"/>
+
+      <View className="pct-row">
+        <Header value="Carrots"/>
+        <Number name="pct_carrots" toName="img_consumed"
+                min="0" max="100" placeholder="0-100"/>
+      </View>
+
+      <View className="divider"/>
+
+      <View className="pct-row">
+        <Header value="Salad (main dish)"/>
+        <Number name="pct_salad_main" toName="img_consumed"
+                min="0" max="100" placeholder="0-100"/>
+      </View>
+
+      <View className="divider"/>
+
+      <View className="pct-row">
+        <Header value="Wrap — Half 1"/>
+        <Number name="pct_wrap_half_1" toName="img_consumed"
+                min="0" max="100" placeholder="0 = present, 100 = eaten"/>
+      </View>
+
+      <View className="divider"/>
+
+      <View className="pct-row">
+        <Header value="Wrap — Half 2"/>
+        <Number name="pct_wrap_half_2" toName="img_consumed"
+                min="0" max="100" placeholder="0 = present, 100 = eaten"/>
+      </View>
+
+      <View className="divider"/>
+
+      <View className="pct-row">
+        <Header value="Pasta with Pesto"/>
+        <Number name="pct_pasta_pesto" toName="img_consumed"
+                min="0" max="100" placeholder="0-100"/>
+      </View>
+
+    </View>
+
+    <!-- Side Dish % -->
+    <View className="section">
+      <View className="section-title">Side Dish</View>
+
+      <View className="pct-row">
+        <Header value="Bread Roll"/>
+        <Number name="pct_bread_roll" toName="img_consumed"
+                min="0" max="100" placeholder="0-100"/>
+      </View>
+
+      <View className="divider"/>
+
+      <View className="pct-row">
+        <Header value="Side Salad (Blattsalat als Beilage)"/>
+        <Number name="pct_side_salad" toName="img_consumed"
+                min="0" max="100" placeholder="0-100"/>
+      </View>
+
+    </View>
+
+    <!-- Dessert % -->
+    <View className="section">
+      <View className="section-title">Dessert</View>
+
+      <View className="pct-row">
+        <Header value="Brownie"/>
+        <Number name="pct_brownie" toName="img_consumed"
+                min="0" max="100" placeholder="0-100"/>
+      </View>
+
+      <View className="divider"/>
+
+      <View className="pct-row">
+        <Header value="Vanilla Pudding with Fruits"/>
+        <Number name="pct_vanilla_pudding" toName="img_consumed"
+                min="0" max="100" placeholder="0-100"/>
+      </View>
+
+      <View className="divider"/>
+
+      <View className="pct-row">
+        <Header value="Fruit Salad"/>
+        <Number name="pct_fruit_salad" toName="img_consumed"
+                min="0" max="100" placeholder="0-100"/>
+      </View>
+
+    </View>
+
+    <!-- Drink — binary -->
+    <View className="section">
+      <View className="section-title">Drinks — Consumed? (Binary)</View>
+      <View className="hint">
+        A drink is consumed only when the bottle/can/cup is visibly
+        empty or removed. Partially drunk = Not consumed.
+      </View>
+
+      <Header value="Water Bottle"/>
+      <Choices name="drink_water" toName="img_consumed"
+               choice="single" showInLine="true">
+        <Choice value="Not consumed"/>
+        <Choice value="Consumed"/>
+        <Choice value="Not present"/>
+      </Choices>
+
+      <View className="divider"/>
+
+      <Header value="Coffee Cup"/>
+      <Choices name="drink_coffee" toName="img_consumed"
+               choice="single" showInLine="true">
+        <Choice value="Not consumed"/>
+        <Choice value="Consumed"/>
+        <Choice value="Not present"/>
+      </Choices>
+
+      <View className="divider"/>
+
+      <Header value="Tea Cup"/>
+      <Choices name="drink_tea" toName="img_consumed"
+               choice="single" showInLine="true">
+        <Choice value="Not consumed"/>
+        <Choice value="Consumed"/>
+        <Choice value="Not present"/>
+      </Choices>
+
+      <View className="divider"/>
+
+      <Header value="Orange Juice Bottle"/>
+      <Choices name="drink_oj" toName="img_consumed"
+               choice="single" showInLine="true">
+        <Choice value="Not consumed"/>
+        <Choice value="Consumed"/>
+        <Choice value="Not present"/>
+      </Choices>
+
+      <View className="divider"/>
+
+      <Header value="Cola Can"/>
+      <Choices name="drink_cola" toName="img_consumed"
+               choice="single" showInLine="true">
+        <Choice value="Not consumed"/>
+        <Choice value="Consumed"/>
+        <Choice value="Not present"/>
+      </Choices>
+
+    </View>
+
+  </View>
+
+  <!-- ══════════════════════════════════════════
+       IMAGE QUALITY FLAGS
+       ══════════════════════════════════════════ -->
+  <View className="section">
+    <View className="section-title">Step 4 — Image Quality Flags</View>
+    <View className="hint">
+      Flag any issues. Flagged images may be excluded from training.
+      Always select at least "No issues" if the image pair is clean.
+    </View>
+
+    <Choices name="quality_flags" toName="img_consumed"
+             choice="multiple" showInLine="false">
+      <Choice value="No issues — image pair is clean"/>
+      <Choice value="Blurry"/>
+      <Choice value="Shadow on tray"/>
+      <Choice value="Tray partially out of frame"/>
+      <Choice value="Obstacle obscuring food (cutlery, napkin, foil)"/>
+      <Choice value="Odd tray angle"/>
+      <Choice value="Lighting inconsistency vs other images"/>
+      <Choice value="Food rearranged significantly"/>
+      <Choice value="Non-edible residuals present (bones, core, crumbs only)"/>
+    </Choices>
+
+  </View>
+
+  <!-- ══════════════════════════════════════════
+       ANNOTATOR NOTES
+       ══════════════════════════════════════════ -->
+  <View className="section">
+    <View className="section-title">Step 5 — Annotator Notes (optional)</View>
+    <TextArea name="notes" toName="img_consumed"
+              placeholder="Edge cases, ambiguities, visual overrides from weight data..."
+              rows="2" maxSubmissions="1"/>
+  </View>
+
+</View>
