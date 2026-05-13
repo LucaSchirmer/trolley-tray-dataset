@@ -36,13 +36,13 @@
 
     <View className="image-panel">
       <View className="image-label">◀ UNCONSUMED — Reference</View>
-      <Image name="img_unconsumed" value="$unconsumed_url"
+      <Image name="img_unconsumed" value="$unconsumed"
              zoom="true" zoomControl="true" crosshair="true"/>
     </View>
 
     <View className="image-panel">
       <View className="image-label">CONSUMED — Annotate Here ▶</View>
-      <Image name="img_consumed" value="$consumed_url"
+      <Image name="img_consumed" value="$consumed"
              zoom="true" zoomControl="true" crosshair="true"/>
     </View>
 
@@ -52,7 +52,7 @@
        YOLO SEGMENTATION MASKS
        Draw polygons on BOTH images.
        One polygon per food category — not per
-       individual item (e.g. all rice = 1 polygon).
+       individual item (e.g. all tray items = by component).
        ══════════════════════════════════════════ -->
 
   <!-- ── Masks on UNCONSUMED image ── -->
@@ -61,8 +61,8 @@
       Step 1 — Draw Masks on UNCONSUMED image (left)
     </View>
     <View className="hint">
-      Draw one polygon per food component visible on the unconsumed tray.
-      Cover the entire region of that food type as one shape.
+      Draw one polygon per component visible on the unconsumed tray.
+      Cover the entire region of that component as one shape.
       Skip components not present on this tray.
     </View>
 
@@ -105,9 +105,9 @@
       Step 2 — Draw Masks on CONSUMED image (right)
     </View>
     <View className="hint">
-      Draw the same food components on the consumed image.
-      Draw tightly around what is actually there — if food is gone,
-      do not draw a mask for it. If food has moved, draw where it is now.
+      Draw the same components on the consumed image.
+      Draw tightly around what is actually there — if component is gone,
+      do not draw a mask for it. If component has moved, draw where it is now.
     </View>
 
     <PolygonLabels name="masks_consumed" toName="img_consumed"
@@ -150,7 +150,7 @@
        judgment. See annotation guidelines.
        ══════════════════════════════════════════ -->
 
-  <!-- ── MAIN COURSE % ── -->
+  <!-- ── CONSUMPTION % ── -->
   <View className="section">
     <View className="section-title">
       Step 3 — Consumption % (Siamese NN Ground Truth)
@@ -163,9 +163,9 @@
       non-edible residuals (cores, bones, crumbs).
     </View>
 
-    <!-- Main Course -->
+    <!-- Solid Foods % -->
     <View className="section">
-      <View className="section-title">Main Course</View>
+      <View className="section-title">Solid Foods</View>
 
       <View className="pct-row">
         <Header value="Rice"/>
@@ -190,7 +190,7 @@
       </View>
 
       <View className="divider"/>
-
+  
       <View className="pct-row">
         <Header value="Broccoli"/>
         <Number name="pct_broccoli" toName="img_consumed"
@@ -252,28 +252,8 @@
       <View className="divider"/>
 
       <View className="pct-row">
-        <Header value="Side Salad (Blattsalat als Beilage)"/>
+        <Header value="Side Salad"/>
         <Number name="pct_side_salad" toName="img_consumed"
-                min="0" max="100" placeholder="0-100"/>
-      </View>
-
-    </View>
-
-    <!-- Dessert % -->
-    <View className="section">
-      <View className="section-title">Dessert</View>
-
-      <View className="pct-row">
-        <Header value="Brownie"/>
-        <Number name="pct_brownie" toName="img_consumed"
-                min="0" max="100" placeholder="0-100"/>
-      </View>
-
-      <View className="divider"/>
-
-      <View className="pct-row">
-        <Header value="Vanilla Pudding with Fruits"/>
-        <Number name="pct_vanilla_pudding" toName="img_consumed"
                 min="0" max="100" placeholder="0-100"/>
       </View>
 
@@ -285,6 +265,21 @@
                 min="0" max="100" placeholder="0-100"/>
       </View>
 
+      <View className="divider"/>
+
+      <View className="pct-row">
+        <Header value="Chocolate Cake"/>
+        <Number name="pct_chocolate_cake" toName="img_consumed"
+                min="0" max="100" placeholder="0-100"/>
+      </View>
+
+      <View className="divider"/>
+
+      <View className="pct-row">
+        <Header value="Vanilla Pudding with Fruits"/>
+        <Number name="pct_vanilla_pudding_with_fruits" toName="img_consumed"
+                min="0" max="100" placeholder="0-100"/>
+      </View>
     </View>
 
     <!-- Drink — binary -->
@@ -295,7 +290,7 @@
         empty or removed. Partially drunk = Not consumed.
       </View>
 
-      <Header value="Water Bottle"/>
+      <Header value="Water"/>
       <Choices name="drink_water" toName="img_consumed"
                choice="single" showInLine="true">
         <Choice value="Not consumed"/>
@@ -305,7 +300,7 @@
 
       <View className="divider"/>
 
-      <Header value="Coffee Cup"/>
+      <Header value="Coffee"/>
       <Choices name="drink_coffee" toName="img_consumed"
                choice="single" showInLine="true">
         <Choice value="Not consumed"/>
@@ -315,7 +310,7 @@
 
       <View className="divider"/>
 
-      <Header value="Tea Cup"/>
+      <Header value="Tea"/>
       <Choices name="drink_tea" toName="img_consumed"
                choice="single" showInLine="true">
         <Choice value="Not consumed"/>
@@ -325,7 +320,7 @@
 
       <View className="divider"/>
 
-      <Header value="Orange Juice Bottle"/>
+      <Header value="Orange Juice"/>
       <Choices name="drink_oj" toName="img_consumed"
                choice="single" showInLine="true">
         <Choice value="Not consumed"/>
@@ -335,7 +330,7 @@
 
       <View className="divider"/>
 
-      <Header value="Cola Can"/>
+      <Header value="Cola"/>
       <Choices name="drink_cola" toName="img_consumed"
                choice="single" showInLine="true">
         <Choice value="Not consumed"/>
