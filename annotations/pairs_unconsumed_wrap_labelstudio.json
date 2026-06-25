@@ -1,0 +1,390 @@
+[
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_162129.jpg",
+    "possibleElements": [
+      "Cola",
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Fruit salad",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_162305.jpg",
+    "possibleElements": [
+      "Orange juice",
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Fruit salad",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_162350.jpg",
+    "possibleElements": [
+      "Water",
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Fruit salad",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_162421.jpg",
+    "possibleElements": [
+      "Tea",
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Fruit salad",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_162531.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Fruit salad",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_162553.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Vanilla pudding with fruits",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_162728.jpg",
+    "possibleElements": [
+      "Tea",
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Vanilla pudding with fruits",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_162909.jpg",
+    "possibleElements": [
+      "Orange juice",
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Vanilla pudding with fruits",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_163016.jpg",
+    "possibleElements": [
+      "Water",
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Vanilla pudding with fruits",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_163317.jpg",
+    "possibleElements": [
+      "Cola",
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Vanilla pudding with fruits",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_163607.jpg",
+    "possibleElements": [
+      "Cola",
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_163733.jpg",
+    "possibleElements": [
+      "Orange juice",
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_163805.jpg",
+    "possibleElements": [
+      "Water",
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_163829.jpg",
+    "possibleElements": [
+      "Tea",
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_163841.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_164100.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_164253.jpg",
+    "possibleElements": [
+      "Tea",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_164331.jpg",
+    "possibleElements": [
+      "Orange juice",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_164352.jpg",
+    "possibleElements": [
+      "Water",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_164410.jpg",
+    "possibleElements": [
+      "Cola",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_164523.jpg",
+    "possibleElements": [
+      "Cola",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_164712.jpg",
+    "possibleElements": [
+      "Orange juice",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_164837.jpg",
+    "possibleElements": [
+      "Water",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_164916.jpg",
+    "possibleElements": [
+      "Tea",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_165007.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_165025.jpg",
+    "possibleElements": [
+      "Coffe",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Fruit salad",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/wrap/all_markers_shot_20260520_165434.jpg",
+    "possibleElements": [
+      "Cola",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Fruit salad",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  },
+  {
+    "unconsumed": "http://localhost:8000/invalid",
+    "possibleElements": [
+      "Orange juice",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Fruit salad",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/wrap"
+  }
+]

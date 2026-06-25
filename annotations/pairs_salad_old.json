@@ -1,0 +1,218 @@
+[
+  {
+    "possibleElements": ["Cola", "Salad", "Bread roll", "Fruit salad"],
+    "unconsumed": "images_cropped/unconsumed/salad/all_markers_shot_20260508_175238.jpg",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_180041.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_180239.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_180322.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_194603.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_194815.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_194839.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_195045.jpg"
+    ]
+  },
+  {
+    "possibleElements": ["Cola", "Salad", "Bread roll", "Chocolate cake"],
+    "unconsumed": "images_cropped/unconsumed/salad/all_markers_shot_20260508_172822.jpg",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_180945.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_182809.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_182933.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_182947.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_183006.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_183748.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_202317.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_202600.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_202636.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_202706.jpg"
+    ]
+  }, 
+  {
+    "possibleElements": ["Tea", "Salad", "Bread roll", "Chocolate cake"],
+    "unconsumed": "images_cropped/unconsumed/salad/all_markers_shot_20260508_173111.jpg",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_181133.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_181314.jpg"
+    ]
+  }, 
+  {
+    "possibleElements": ["Coffee", "Salad", "Bread roll", "Chocolate cake"],
+    "unconsumed": "images_cropped/unconsumed/salad/all_markers_shot_20260508_173028.jpg",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_181404.jpg",      
+      "images_cropped/consumed/salad/all_markers_shot_20260508_181640.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_181846.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_181926.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_182039.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_182226.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_182414.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_182444.jpg"
+    ]
+  },
+  {
+    "possibleElements": ["Coffee", "Salad", "Bread roll", "Fruit salad"],
+    "unconsumed": "images_cropped/unconsumed/salad/all_markers_shot_20260508_175057.jpg",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_195210.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_195251.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_195354.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_195436.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_195526.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_195905.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_200214.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_200301.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_200505.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_200625.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_200729.jpg"
+
+    ]
+  },
+  {
+    "possibleElements": ["Cola", "Salad", "Side salad", "Chocolate cake"],
+    "unconsumed": "images_cropped/unconsumed/salad/all_markers_shot_20260508_173649.jpg",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_183045.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_183435.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_183543.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_183719.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_183735.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_202848.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_203004.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_203124.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_203402.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_203509.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_203601.jpg"
+    ]
+  },
+  {
+    "possibleElements": ["Orange juice", "Salad", "Bread roll", "Chocolate cake"],
+    "unconsumed": "images_cropped/unconsumed/salad/all_markers_shot_20260508_172620.jpg",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_184133.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_184258.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_184725.jpg"
+
+    ]
+  },
+  {
+    "possibleElements": ["Water", "Salad", "Bread roll", "Chocolate cake"],
+    "unconsumed": "images_cropped/unconsumed/salad/all_markers_shot_20260508_172519.jpg",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_184850.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_185026.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_205009.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_205055.jpg"
+
+    ]
+  },
+  {
+    "possibleElements": ["Water", "Salad", "Bread roll", "Fruit salad"],
+    "unconsumed": "images_cropped/unconsumed/salad/all_markers_shot_20260508_175405.jpg",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_185210.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_185318.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_185344.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_185404.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_185648.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_185735.jpg"
+    ]
+  },
+  {
+    "possibleElements": ["Tea", "Salad", "Bread roll", "Fruit salad"],
+    "unconsumed": "images_cropped/unconsumed/salad/all_markers_shot_20260508_175301.jpg",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_185857.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_190500.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_190608.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_191120.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_191208.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_200826.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_200954.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_201209.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_201322.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_201424.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_201554.jpg"
+    ]
+  },
+  {
+    "possibleElements": ["Orange juice", "Salad", "Bread roll", "Vanilla pudding with fruits"],
+    "unconsumed": "images_cropped/unconsumed/salad/all_markers_shot_20260508_174341.jpg",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_191812.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_191924.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_192105.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_192301.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_192336.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_192446.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_192632.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_192723.jpg"
+    ]
+  },
+  {
+    "possibleElements": ["Salad", "Bread roll", "Vanilla pudding with fruits"],
+    "unconsumed": "invalid",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_192425.jpg"
+    ]
+  },
+  {
+    "possibleElements": ["Salad", "Bread roll", "Chocolate cake"],
+    "unconsumed": "invalid",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_201642.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_201721.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_201825.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_201927.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_202007.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_202124.jpg"
+    ]
+  },
+  {
+    "possibleElements": ["Water", "Salad", "Side salad", "Vanilla pudding with fruits"],
+    "unconsumed": "images_cropped/unconsumed/salad/all_markers_shot_20260508_174145.jpg",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_193130.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_193250.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_193415.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_193938.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_194101.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_194118.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_194331.jpg"
+    ]
+  },
+    {
+    "possibleElements": ["Water", "Salad", "Bread roll", "Vanilla pudding with fruits"],
+    "unconsumed": "images_cropped/unconsumed/salad/all_markers_shot_20260508_174259.jpg",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_203926.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_204034.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_204916.jpg"
+    ]
+  },  
+  {
+    "possibleElements": ["Orange juice", "Salad", "Bread roll", "Vanilla pudding with fruits"],
+    "unconsumed": "images_cropped/unconsumed/salad/all_markers_shot_20260508_174341.jpg",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_204305.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_204337.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_204432.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_204508.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_204555.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_204642.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_204801.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_204808.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_204839.jpg"
+    ]
+  },
+  {
+    "possibleElements": ["Water", "Salad", "Side salad", "Chocolate cake"],
+    "unconsumed": "images_cropped/unconsumed/salad/all_markers_shot_20260508_173813.jpg",
+    "consumed": [
+      "images_cropped/consumed/salad/all_markers_shot_20260508_203636.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_203712.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_203733.jpg",
+      "images_cropped/consumed/salad/all_markers_shot_20260508_203841.jpg"
+    ]
+  }
+]

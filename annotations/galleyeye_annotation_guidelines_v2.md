@@ -4,11 +4,11 @@
 
 ## 0. What You Are Annotating and Why
 
-Each image pair produces two types of annotation:
+Each tray can produce two annotation tasks:
 
 | Annotation | Used for | How |
 |---|---|---|
-| Polygon masks | YOLO segmentation training | Draw on both images |
+| Polygon masks | YOLO segmentation training | Draw once on the unconsumed task, once on the consumed task |
 | Consumption % per component | Siamese NN ground truth | Number 0–100 per component |
 
 These serve different models. Be precise about both. A sloppy mask hurts YOLO. A wrong percentage hurts the Siamese NN.
@@ -27,19 +27,21 @@ These serve different models. Be precise about both. A sloppy mask hurts YOLO. A
 
 ## 2. Workflow — Step by Step
 
-Follow this order for every image pair:
+Follow this order for the two-task workflow:
 
 ```
-1. Open image pair in Label Studio
-2. Study unconsumed image (left) — identify all food components present
-3. Draw masks on UNCONSUMED image (Step 1 in interface)
-4. Draw masks on CONSUMED image (Step 2 in interface)
-5. Enter % for each component (Step 3 in interface)
+1. Open the unconsumed-reference task in Label Studio
+2. Draw masks on the unconsumed image
+3. Keep the consumption values at 0%
+4. Open the consumed-comparison task in Label Studio
+5. Study the unconsumed reference image on the left
+6. Draw masks on the consumed image on the right
+7. Enter % for each component on the consumed image
    → Check Excel tracker weight % first
    → Apply visual correction if needed
-6. Set drink binary values
-7. Flag any quality issues (Step 4)
-8. Add notes for anything ambiguous (Step 5)
+8. Set drink binary values
+9. Flag any quality issues (Step 3)
+10. Add notes for anything ambiguous (Step 4)
 ```
 
 Never skip steps or do them out of order. In particular: always draw masks before entering percentages — seeing the masks helps you judge the % more accurately.
@@ -52,8 +54,7 @@ Never skip steps or do them out of order. In particular: always draw masks befor
 
 - Draw **tightly** around the food region — do not include empty tray space inside the polygon
 - On the **unconsumed image**: draw around the full starting portion
-- On the **consumed image**: draw around what is **actually there** — if food is gone, do not draw a mask for it. If food moved, draw where it is now
-- If a food component is completely consumed (nothing remaining), **skip it** on the consumed image — no mask needed
+- In the consumed-comparison task: draw masks on the consumed image only; the left image is reference only
 - Overlap between masks is acceptable where food components touch — draw the natural boundary
 
 ### 3.2 Class-specific mask drawing rules
@@ -241,11 +242,13 @@ Before entering any % in Label Studio:
 
 | Situation | What to do |
 |---|---|
-| Food completely gone, no mask to draw on consumed image | Skip mask for that class on consumed image. Enter 100% in slider. |
-| Food moved to different part of tray | Draw mask where food actually is on consumed image. Note "food rearranged" in quality flags. |
+| Unconsumed-reference task | Draw the mask once and leave the consumption values at 0%. |
+| Consumed-comparison task | Draw masks only on the consumed image and estimate the 0–100% consumption there. |
+| Food completely gone | Leave no mask for that class on the consumed image and enter 100% in the slider. |
+| Food moved to different part of tray | Draw the consumed-side mask where the food is now. Note "food rearranged" in quality flags. |
 | Wrap — only one half was ever served | Draw mask for present half only. Leave other half blank. |
 | Weight % and visual judgment strongly disagree | Trust visual judgment. Note the discrepancy in the notes field with the weight value. |
-| Completely uneaten tray — all 0% | Still draw all masks on both images. Enter 0% for all components. This is valid training data. |
+| Completely uneaten tray — all 0% | Still draw all masks on the unconsumed task. Enter 0% for all components. This is valid training data. |
 
 ---
 
@@ -280,7 +283,7 @@ Before entering any % in Label Studio:
 Run through before submitting every annotation:
 
 - [ ] Did I study the unconsumed image before annotating?
-- [ ] Did I draw masks on BOTH images?
+- [ ] Did I draw the mask on the correct image for this task?
 - [ ] Did I draw one polygon per food category (not per individual piece)?
 - [ ] Did I check the Excel weight % before entering Siamese % values?
 - [ ] Did I apply visual correction for non-edible residuals (cores, bones, crumbs)?

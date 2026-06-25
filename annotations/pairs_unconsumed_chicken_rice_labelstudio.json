@@ -1,0 +1,393 @@
+[
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133257.jpg",
+    "possibleElements": [
+      "Cola",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133351.jpg",
+    "possibleElements": [
+      "Orange juice",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133528.jpg",
+    "possibleElements": [
+      "Water",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133617.jpg",
+    "possibleElements": [
+      "Tea",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133720.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133744.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133800.jpg",
+    "possibleElements": [
+      "Tea",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133819.jpg",
+    "possibleElements": [
+      "Orange juice",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133849.jpg",
+    "possibleElements": [
+      "Water",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134315.jpg",
+    "possibleElements": [
+      "Cola",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Fruit salad",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134328.jpg",
+    "possibleElements": [
+      "Orange juice",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Fruit salad",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134339.jpg",
+    "possibleElements": [
+      "Water",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Fruit salad",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134351.jpg",
+    "possibleElements": [
+      "Tea",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Fruit salad",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134422.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Fruit salad",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_135326.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_135414.jpg",
+    "possibleElements": [
+      "Orange juice",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_135428.jpg",
+    "possibleElements": [
+      "Water",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_135438.jpg",
+    "possibleElements": [
+      "Tea",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_135508.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_135529.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Side salad",
+      "Vanilla pudding with fruits",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_135543.jpg",
+    "possibleElements": [
+      "Cola",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Side salad",
+      "Vanilla pudding with fruits",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_135556.jpg",
+    "possibleElements": [
+      "Cola",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Side salad",
+      "Fruit salad",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_135607.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Side salad",
+      "Fruit salad",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/chicken_rice"
+  },
+  {
+    "unconsumed": "http://localhost:8000/invalid",
+    "possibleElements": [
+      "Cola",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ]
+  }
+]

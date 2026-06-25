@@ -1,0 +1,186 @@
+<View>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       GALLEYEYE — Label Studio Annotation Config v2
+       Purpose : Unconsumed reference masks + auto 0% consumption labels
+       Layout  : Unconsumed-only
+       ═══════════════════════════════════════════════════════════════ -->
+
+  <Style>
+    .section         { background: #f2f7fb; border-radius: 8px;
+                       padding: 12px 16px; margin-bottom: 12px; }
+    .section-title   { font-weight: bold; font-size: 13px;
+                       color: #1F3864; margin-bottom: 8px;
+                       text-transform: uppercase; letter-spacing: 0.5px;
+                       border-bottom: 2px solid #1F3864;
+                       padding-bottom: 4px; }
+    .hint            { font-size: 11px; color: #777;
+                       margin-top: 2px; margin-bottom: 6px;
+                       font-style: italic; }
+    .divider         { border-top: 1px solid #d0dce8; margin: 12px 0; }
+    .pct-row         { margin-bottom: 8px; }
+  </Style>
+
+  <View className="section">
+    <View className="section-title">Unconsumed Reference</View>
+    <View className="hint">
+      Draw one polygon per component visible on the unconsumed tray.
+      The consumption values default to 0% and can stay unchanged.
+    </View>
+
+    <Image name="img_unconsumed" value="$unconsumed"
+           zoom="true" zoomControl="true" crosshair="true"/>
+
+    <PolygonLabels name="masks_unconsumed" toName="img_unconsumed"
+                   strokeWidth="2" pointSize="small" opacity="0.4">
+
+      <Label value="rice"             background="#4A90D9"/>
+      <Label value="chicken"          background="#E8A838"/>
+      <Label value="fish_salmon"      background="#F4A460"/>
+      <Label value="broccoli"         background="#5CB85C"/>
+      <Label value="carrots"          background="#FF7F00"/>
+      <Label value="salad_main"       background="#8BC34A"/>
+      <Label value="wrap_half_1"      background="#AB47BC"/>
+      <Label value="wrap_half_2"      background="#CE93D8"/>
+      <Label value="pasta_pesto"      background="#26A69A"/>
+
+      <Label value="bread_roll"       background="#A1887F"/>
+      <Label value="side_salad"       background="#AED581"/>
+
+      <Label value="brownie"          background="#6D4C41"/>
+      <Label value="vanilla_pudding_with_fruits" background="#FFF176"/>
+      <Label value="fruit_salad"      background="#EF9A9A"/>
+
+      <Label value="water_bottle"     background="#81D4FA"/>
+      <Label value="coffee_cup"       background="#4E342E"/>
+      <Label value="tea_cup"          background="#A5D6A7"/>
+      <Label value="orange_juice_bottle" background="#FFB300"/>
+      <Label value="cola_can"         background="#C62828"/>
+
+      <Label value="honey"            background="#FFD54F"/>
+      <Label value="plum_jam"         background="#9C27B0"/>
+      <Label value="cherry_jam"       background="#D32F2F"/>
+      <Label value="butter"           background="#FFEB3B"/>
+      <Label value="cookie"           background="#FF9800"/>
+
+    </PolygonLabels>
+  </View>
+
+  <View className="section">
+    <View className="section-title">Auto-filled Consumption %</View>
+    <View className="hint">
+      These values should remain at 0 for the unconsumed reference image.
+    </View>
+
+    <View className="pct-row">
+      <Header value="Rice"/>
+      <Number name="pct_rice" toName="img_unconsumed"
+              min="0" max="100" defaultValue="0" required="true"/>
+    </View>
+
+    <View className="divider"/>
+
+    <View className="pct-row">
+      <Header value="Chicken"/>
+      <Number name="pct_chicken" toName="img_unconsumed"
+              min="0" max="100" defaultValue="0" required="true"/>
+    </View>
+
+    <View className="divider"/>
+
+    <View className="pct-row">
+      <Header value="Fish / Salmon"/>
+      <Number name="pct_fish_salmon" toName="img_unconsumed"
+              min="0" max="100" defaultValue="0" required="true"/>
+    </View>
+
+    <View className="divider"/>
+
+    <View className="pct-row">
+      <Header value="Broccoli"/>
+      <Number name="pct_broccoli" toName="img_unconsumed"
+              min="0" max="100" defaultValue="0" required="true"/>
+    </View>
+
+    <View className="divider"/>
+
+    <View className="pct-row">
+      <Header value="Carrots"/>
+      <Number name="pct_carrots" toName="img_unconsumed"
+              min="0" max="100" defaultValue="0" required="true"/>
+    </View>
+
+    <View className="divider"/>
+
+    <View className="pct-row">
+      <Header value="Salad (main dish)"/>
+      <Number name="pct_salad_main" toName="img_unconsumed"
+              min="0" max="100" defaultValue="0" required="true"/>
+    </View>
+
+    <View className="divider"/>
+
+    <View className="pct-row">
+      <Header value="Wrap — Half 1"/>
+      <Number name="pct_wrap_half_1" toName="img_unconsumed"
+              min="0" max="100" defaultValue="0" required="true"/>
+    </View>
+
+    <View className="divider"/>
+
+    <View className="pct-row">
+      <Header value="Wrap — Half 2"/>
+      <Number name="pct_wrap_half_2" toName="img_unconsumed"
+              min="0" max="100" defaultValue="0" required="true"/>
+    </View>
+
+    <View className="divider"/>
+
+    <View className="pct-row">
+      <Header value="Pasta with Pesto"/>
+      <Number name="pct_pasta_pesto" toName="img_unconsumed"
+              min="0" max="100" defaultValue="0" required="true"/>
+    </View>
+
+    <View className="divider"/>
+
+    <View className="pct-row">
+      <Header value="Bread Roll"/>
+      <Number name="pct_bread_roll" toName="img_unconsumed"
+              min="0" max="100" defaultValue="0" required="true"/>
+    </View>
+
+    <View className="divider"/>
+
+    <View className="pct-row">
+      <Header value="Side Salad"/>
+      <Number name="pct_side_salad" toName="img_unconsumed"
+              min="0" max="100" defaultValue="0" required="true"/>
+    </View>
+
+    <View className="divider"/>
+
+    <View className="pct-row">
+      <Header value="Fruit Salad"/>
+      <Number name="pct_fruit_salad" toName="img_unconsumed"
+              min="0" max="100" defaultValue="0" required="true"/>
+    </View>
+
+    <View className="divider"/>
+
+    <View className="pct-row">
+      <Header value="Chocolate Cake"/>
+      <Number name="pct_chocolate_cake" toName="img_unconsumed"
+              min="0" max="100" defaultValue="0" required="true"/>
+    </View>
+
+    <View className="divider"/>
+
+    <View className="pct-row">
+      <Header value="Vanilla Pudding with Fruits"/>
+      <Number name="pct_vanilla_pudding_with_fruits" toName="img_unconsumed"
+              min="0" max="100" defaultValue="0" required="true"/>
+    </View>
+  </View>
+
+</View>

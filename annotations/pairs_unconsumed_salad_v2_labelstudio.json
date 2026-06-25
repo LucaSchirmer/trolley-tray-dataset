@@ -1,0 +1,317 @@
+[
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_132943.jpg",
+    "possibleElements": [
+      "Cola",
+      "Salad",
+      "Side salad",
+      "Fruit salad",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_133819.jpg",
+    "possibleElements": [
+      "Orange juice",
+      "Salad",
+      "Side salad",
+      "Fruit salad",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_133933.jpg",
+    "possibleElements": [
+      "Water",
+      "Salad",
+      "Side salad",
+      "Fruit salad",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_134050.jpg",
+    "possibleElements": [
+      "Tea",
+      "Salad",
+      "Side salad",
+      "Fruit salad",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_134146.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Salad",
+      "Side salad",
+      "Fruit salad",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_134312.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Salad",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_134353.jpg",
+    "possibleElements": [
+      "Orange juice",
+      "Salad",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_134411.jpg",
+    "possibleElements": [
+      "Water",
+      "Salad",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_134437.jpg",
+    "possibleElements": [
+      "Tea",
+      "Salad",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_134612.jpg",
+    "possibleElements": [
+      "Cola",
+      "Salad",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_134934.jpg",
+    "possibleElements": [
+      "Cola",
+      "Salad",
+      "Side salad",
+      "Vanilla puddding with fruits",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_134947.jpg",
+    "possibleElements": [
+      "Orange juice",
+      "Salad",
+      "Side salad",
+      "Vanilla puddding with fruits",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_135013.jpg",
+    "possibleElements": [
+      "Water",
+      "Salad",
+      "Side salad",
+      "Vanilla puddding with fruits",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_135221.jpg",
+    "possibleElements": [
+      "Tea",
+      "Salad",
+      "Side salad",
+      "Vanilla puddding with fruits",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_135520.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Salad",
+      "Side salad",
+      "Vanilla puddding with fruits",
+      "Cookie"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_135737.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Salad",
+      "Bread roll",
+      "Vanilla puddding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_140236.jpg",
+    "possibleElements": [
+      "Orange juice",
+      "Salad",
+      "Bread roll",
+      "Vanilla puddding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_140304.jpg",
+    "possibleElements": [
+      "Water",
+      "Salad",
+      "Bread roll",
+      "Vanilla puddding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_140316.jpg",
+    "possibleElements": [
+      "Tea",
+      "Salad",
+      "Bread roll",
+      "Vanilla puddding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_140344.jpg",
+    "possibleElements": [
+      "Cola",
+      "Salad",
+      "Bread roll",
+      "Vanilla puddding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_140726.jpg",
+    "possibleElements": [
+      "Coffee",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_140750.jpg",
+    "possibleElements": [
+      "Orange juice",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_140801.jpg",
+    "possibleElements": [
+      "Water",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_140824.jpg",
+    "possibleElements": [
+      "Tea",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  },
+  {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_140921.jpg",
+    "possibleElements": [
+      "Cola",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "source_dir": "images_cropped/unconsumed/salad_v2"
+  }
+]

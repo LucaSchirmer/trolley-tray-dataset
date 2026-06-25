@@ -4,8 +4,8 @@ This repository contains the trolley tray image dataset organized by consumption
 
 ## Dataset Structure
 
-- `images/consumed/`
-- `images/unconsumed/`
+- `images_cropped/consumed/`
+- `images_cropped/unconsumed/`
 
 Each folder is further split into the meal categories `chicken_rice`, `fish_rice`, `pasta_pesto`, `salad`, `wrap`, and `others`.
 
@@ -34,12 +34,13 @@ The spreadsheet used to track the images and add context is here:
 
 ### Configuration
 
-The annotation interface is defined in:
-- [annotations/galleyeye_label_studio_config_v2.xml](annotations/galleyeye_label_studio_config_v2.xml)
+Use two Label Studio projects:
+- [annotations/galleyeye_label_studio_config_unconsumed_v2.xml](annotations/galleyeye_label_studio_config_unconsumed_v2.xml) for unconsumed reference masks
+- [annotations/galleyeye_label_studio_config_v2.xml](annotations/galleyeye_label_studio_config_v2.xml) for consumed comparison masks and consumption estimates
 
 When creating your Label Studio project:
 1. Go to **Settings → Labeling Interface**
-2. Paste the XML config from the file above
+2. Paste the XML config for the project type you want
 3. Save
 
 ### Annotation Guidelines
@@ -48,7 +49,8 @@ Detailed guidelines for annotators:
 - [annotations/galleyeye_annotation_guidelines_v2.md](annotations/galleyeye_annotation_guidelines_v2.md)
 
 Each image pair requires:
-- **Polygon masks** on both unconsumed and consumed images for YOLO training
+- **Unconsumed reference masks** once per image for YOLO training
+- **Consumed comparison masks** once per consumed image for YOLO training
 - **Consumption percentages** (0–100) per food component for Siamese NN ground truth
 - **Drink binary values** (consumed / not consumed / not present)
 - **Quality flags** if applicable
@@ -56,14 +58,14 @@ Each image pair requires:
 
 ### Task Data Format
 
-Tasks must have this JSON structure:
+Unconsumed-reference tasks use this JSON structure:
 
 ```json
 {
   "id": 1,
-  "unconsumed_url": "path/to/unconsumed/image.jpg",
-  "consumed_url": "path/to/consumed/image.jpg"
+   "unconsumed": "path/to/unconsumed/image.jpg",
+   "possibleElements": ["Rice", "Chicken"]
 }
 ```
 
-The field names `unconsumed_url` and `consumed_url` must match exactly for images to load in the interface.
+Consumed-comparison tasks use `annotations/pairs_labelstudio.json` with the `unconsumed` and `consumed` fields.
