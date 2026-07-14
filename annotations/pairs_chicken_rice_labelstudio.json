@@ -1369,7 +1369,7 @@
   },
   {
     "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134339.jpg",
-    "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_143815.jpg",
+    "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_143813.jpg",
     "possibleElements": [
       "Water",
       "Chicken",
@@ -1947,7 +1947,7 @@
   },
   {
     "unconsumed": "",
-    "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260508_141932.jpg",
+    "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_141932.jpg",
     "possibleElements": [
       "Cola",
       "Chicken",

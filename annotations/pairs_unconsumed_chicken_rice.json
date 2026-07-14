@@ -151,7 +151,7 @@
     "unconsumed": "images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134339.jpg",
     "consumed": [
       "images_cropped/consumed/chicken_rice/all_markers_shot_20260528_143735.jpg",
-      "images_cropped/consumed/chicken_rice/all_markers_shot_20260528_143815.jpg"
+      "images_cropped/consumed/chicken_rice/all_markers_shot_20260528_143813.jpg"
     ],
     "possibleElements": ["Water", "Chicken", "Rice", "Broccoli", "Carrots", "Bread roll", "Fruit salad", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
   },
@@ -272,7 +272,7 @@
     "possibleElements": ["Cola", "Chicken", "Rice", "Broccoli", "Carrots", "Side salad", "Chocolate cake", "Cookie"],
     "unconsumed": "invalid",
     "consumed": [
-      "images_cropped/consumed/chicken_rice/all_markers_shot_20260508_141932.jpg",
+      "images_cropped/consumed/chicken_rice/all_markers_shot_20260528_141932.jpg",
       "images_cropped/consumed/chicken_rice/all_markers_shot_20260528_154743.jpg"
     ]
   }
