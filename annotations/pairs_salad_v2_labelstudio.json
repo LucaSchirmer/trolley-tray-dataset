@@ -100,7 +100,7 @@
   },
   {
     "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_132943.jpg",
-    "consumed": "http://localhost:8000/images_cropped/consumed/salad_v2/all_markers_shot_20260519_150457.jpg",
+    "consumed": "http://localhost:8000/images_cropped/consumed/salad_v2/all_markers_shot_20260519_150437.jpg",
     "possibleElements": [
       "Cola",
       "Salad",
@@ -254,7 +254,7 @@
   },
   {
     "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_133819.jpg",
-    "consumed": "http://localhost:8000/images_cropped/consumed/salad_v2/all_markers_shot_20260519_160913.jpg",
+    "consumed": "http://localhost:8000/images_cropped/consumed/salad_v2/all_markers_shot_20260519_160931.jpg",
     "possibleElements": [
       "Orange juice",
       "Salad",
@@ -762,7 +762,7 @@
   },
   {
     "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_140304.jpg",
-    "consumed": "http://localhost:8000/images_cropped/consumed/salad_v2/all_markers_shot_20260519_163246.jpg",
+    "consumed": "http://localhost:8000/images_cropped/consumed/salad_v2/all_markers_shot_20260519_163245.jpg",
     "possibleElements": [
       "Water",
       "Salad",
@@ -1482,7 +1482,7 @@
   },
   {
     "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_140824.jpg",
-    "consumed": "http://localhost:8000/images_cropped/consumed/salad_v2/all_markers_shot_20260519_145511.jpg",
+    "consumed": "http://localhost:8000/images_cropped/consumed/salad_v2/all_markers_shot_20260519_154511.jpg",
     "possibleElements": [
       "Tea",
       "Salad",
@@ -1497,7 +1497,7 @@
   },
   {
     "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_140824.jpg",
-    "consumed": "http://localhost:8000/images_cropped/consumed/salad_v2/all_markers_shot_20260519_145626.jpg",
+    "consumed": "http://localhost:8000/images_cropped/consumed/salad_v2/all_markers_shot_20260519_154626.jpg",
     "possibleElements": [
       "Tea",
       "Salad",
@@ -1512,7 +1512,7 @@
   },
   {
     "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_140824.jpg",
-    "consumed": "http://localhost:8000/images_cropped/consumed/salad_v2/all_markers_shot_20260519_145809.jpg",
+    "consumed": "http://localhost:8000/images_cropped/consumed/salad_v2/all_markers_shot_20260519_154809.jpg",
     "possibleElements": [
       "Tea",
       "Salad",
@@ -1527,7 +1527,7 @@
   },
   {
     "unconsumed": "http://localhost:8000/images_cropped/unconsumed/salad_v2/all_markers_shot_20260519_140824.jpg",
-    "consumed": "http://localhost:8000/images_cropped/consumed/salad_v2/all_markers_shot_20260519_145845.jpg",
+    "consumed": "http://localhost:8000/images_cropped/consumed/salad_v2/all_markers_shot_20260519_154945.jpg",
     "possibleElements": [
       "Tea",
       "Salad",
