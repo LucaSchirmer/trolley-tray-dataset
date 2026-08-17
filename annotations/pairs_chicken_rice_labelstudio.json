@@ -1946,6 +1946,20 @@
     ]
   },
   {
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133351.jpg",
+    "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_142837.jpg",
+    "possibleElements": [
+      "Cola",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ]
+  },
+  {
     "unconsumed": "",
     "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_141932.jpg",
     "possibleElements": [
