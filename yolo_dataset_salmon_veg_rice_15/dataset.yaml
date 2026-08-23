@@ -1,0 +1,24 @@
+path: /mnt/c/Users/LucaS/OneDrive/Desktop/programmieren_code/ba_thesis/trolley-tray-dataset/yolo_dataset_salmon_veg_rice_15
+train: images
+val: images
+names:
+  0: "bread_roll"
+  1: "broccoli"
+  2: "brownie"
+  3: "butter"
+  4: "carrots"
+  5: "cherry_jam"
+  6: "chicken"
+  7: "coffee_cup"
+  8: "cola_can"
+  9: "cookie"
+  10: "fish_salmon"
+  11: "fruit_salad"
+  12: "honey"
+  13: "orange_juice_bottle"
+  14: "plum_jam"
+  15: "rice"
+  16: "side_salad"
+  17: "tea_cup"
+  18: "vanilla_pudding_with_fruits"
+  19: "water_bottle"
