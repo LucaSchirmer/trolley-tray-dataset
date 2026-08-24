@@ -613,24 +613,6 @@
   },
   {
     "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133849.jpg",
-    "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_144807.jpg",
-    "possibleElements": [
-      "Water",
-      "Chicken",
-      "Rice",
-      "Broccoli",
-      "Carrots",
-      "Bread roll",
-      "Vanilla pudding with fruits",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ]
-  },
-  {
-    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133849.jpg",
     "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_144955.jpg",
     "possibleElements": [
       "Water",
@@ -684,25 +666,7 @@
     ]
   },
   {
-    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133849.jpg",
-    "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_145221.jpg",
-    "possibleElements": [
-      "Water",
-      "Chicken",
-      "Rice",
-      "Broccoli",
-      "Carrots",
-      "Bread roll",
-      "Vanilla pudding with fruits",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ]
-  },
-  {
-    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133849.jpg",
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133528.jpg",
     "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_145221.jpg",
     "possibleElements": [
       "Water",
@@ -896,11 +860,11 @@
       "Cherry jam",
       "Plum jam",
       "Honey",
-      "Butter"
+      "Butter" 
     ]
   },
   {
-    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134328.jpg",
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133351.jpg",
     "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_142800.jpg",
     "possibleElements": [
       "Orange juice",
@@ -936,7 +900,7 @@
     ]
   },
   {
-    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134328.jpg",
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133351.jpg",
     "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_142925.jpg",
     "possibleElements": [
       "Orange juice",
@@ -954,7 +918,7 @@
     ]
   },
   {
-    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134328.jpg",
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133351.jpg",
     "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_143013.jpg",
     "possibleElements": [
       "Orange juice",
@@ -972,7 +936,7 @@
     ]
   },
   {
-    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134328.jpg",
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133351.jpg",
     "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_143045.jpg",
     "possibleElements": [
       "Orange juice",
@@ -990,7 +954,7 @@
     ]
   },
   {
-    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134328.jpg",
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133351.jpg",
     "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_143205.jpg",
     "possibleElements": [
       "Orange juice",
@@ -1008,7 +972,7 @@
     ]
   },
   {
-    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134328.jpg",
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133351.jpg",
     "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_143251.jpg",
     "possibleElements": [
       "Orange juice",
@@ -1026,7 +990,7 @@
     ]
   },
   {
-    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134328.jpg",
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133351.jpg",
     "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_143349.jpg",
     "possibleElements": [
       "Orange juice",
@@ -1044,7 +1008,7 @@
     ]
   },
   {
-    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134328.jpg",
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133351.jpg",
     "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_143427.jpg",
     "possibleElements": [
       "Orange juice",
@@ -1062,7 +1026,7 @@
     ]
   },
   {
-    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134328.jpg",
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133351.jpg",
     "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_143444.jpg",
     "possibleElements": [
       "Orange juice",
@@ -1080,7 +1044,7 @@
     ]
   },
   {
-    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134328.jpg",
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133351.jpg",
     "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_143542.jpg",
     "possibleElements": [
       "Orange juice",
@@ -1098,7 +1062,7 @@
     ]
   },
   {
-    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134328.jpg",
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133351.jpg",
     "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_143641.jpg",
     "possibleElements": [
       "Orange juice",
@@ -1350,7 +1314,7 @@
     ]
   },
   {
-    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_134339.jpg",
+    "unconsumed": "http://localhost:8000/images_cropped/unconsumed/chicken_rice/all_markers_shot_20260528_133528.jpg",
     "consumed": "http://localhost:8000/images_cropped/consumed/chicken_rice/all_markers_shot_20260528_143735.jpg",
     "possibleElements": [
       "Water",
