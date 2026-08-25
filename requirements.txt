@@ -151,3 +151,8 @@ wheel==0.47.0
 wrapt==2.1.2
 xmljson==0.2.1
 zipp==3.23.1
+# Install PyTorch from the CUDA wheel index matching the host driver first; see automatic_masks/README.md.
+torch==2.7.1
+torchvision==0.22.1
+ultralytics==8.3.203
+pytest==8.4.1

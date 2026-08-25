@@ -1,1 +1,13 @@
 /.venv
+
+# automatic_masks
+/automatic_masks/**/.venv
+/automatic_masks/**/weights/
+/automatic_masks/**/runs/
+/automatic_masks/**/outputs/
+/automatic_masks/**/candidate_outputs/
+/automatic_masks/**/training_data/
+/automatic_masks/**/training_runs/
+/automatic_masks/**/__pycache__/
+/automatic_masks/**/.pytest_cache/
+/automatic_masks/**/*.pyc
