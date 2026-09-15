@@ -11,9 +11,10 @@ Each folder is further split into the meal categories `chicken_rice`, `fish_rice
 
 ## Image Context Spreadsheet
 
-The spreadsheet used to track the images and add context is here:
+The authoritative public spreadsheet used to track the images and add context
+is the V2 acquisition log:
 
-[Image tracking spreadsheet](https://docs.google.com/spreadsheets/d/1laz2lDZd-KpwE_SEZZdjidFYOjZks5Md3kDekuKRR9s/edit?usp=sharing)
+[Dataset lookup table BA thesis V2](https://docs.google.com/spreadsheets/d/1lFL5x6yywJH-b915co-cpRlbgwMUtsVzqNE0k7VZ2Vg/edit?usp=sharing)
 
 ## Annotation with Label Studio
 
